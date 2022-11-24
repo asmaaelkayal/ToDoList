@@ -50,7 +50,7 @@ iconChange.addEventListener('click',function mood(){
 this.classList.toggle('sun')
     if (this.classList.contains('sun')==true){
         this.src='images/icon-moon.svg';
-        hh.style.backgroundImage="url('../images/bg-desktop-light.jpg')";
+        hh.style.backgroundImage="url('images/bg-desktop-light.jpg')";
         document.body.style.backgroundColor='hsl(0, 0%, 98%)';
         text.style.backgroundColor=' hsl(236, 33%, 92%)';
         todo_con.style.backgroundColor='hsl(236, 33%, 84%)';
@@ -62,7 +62,7 @@ this.classList.toggle('sun')
     }
     else{
         iconChange.src='images/icon-sun.svg';
-        hh.style.backgroundImage="url('../images/bg-desktop-dark.jpg')"
+        hh.style.backgroundImage="url('images/bg-desktop-dark.jpg')"
         document.body.style.backgroundColor='hsl(235,21%,11%)';
         text.style.backgroundColor=' hsl(235,24%,19%)';
         todo_con.style.backgroundColor='hsl(235,24%,19%)'
