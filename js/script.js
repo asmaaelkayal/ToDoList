@@ -11,11 +11,11 @@ function addtoList(){
     let divAdd=document.createElement('div');
     divAdd.innerHTML=`<div class="do_li">
 <div class="check ">
-        <img src="/images/icon-check.svg" alt="check">
+        <img src="images/icon-check.svg" alt="check">
     </div>
     <p class="ps">${textAdd}</p>
     <button class="close">
-        <img src="/images/icon-cross.svg" alt="">
+        <img src="images/icon-cross.svg" alt="">
     </button>
 </div>
 <div class="hr"></div>`
