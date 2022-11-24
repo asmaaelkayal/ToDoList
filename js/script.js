@@ -65,6 +65,7 @@ this.classList.toggle('sun')
         hh.style.backgroundImage="url('images/bg-desktop-dark.jpg')"
         document.body.style.backgroundColor='hsl(235,21%,11%)';
         text.style.backgroundColor=' hsl(235,24%,19%)';
-        todo_con.style.backgroundColor='hsl(235,24%,19%)'
+        todo_con.style.backgroundColor='hsl(235,24%,19%)';
+        document.querySelector('.foot').style.backgroundColor=' hsl(235,24%,19%)';
     }
 })
